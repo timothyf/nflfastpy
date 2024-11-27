@@ -85,7 +85,7 @@ def load_schedule_data(year=2024):
         raise TypeError('Please provide an integer between 1999 and 2024 for the year argument.')
 
     if year < 1999 or year > 2024:
-        raise SeasonNotFoundError('Schedule data is only available from 1999 to 2020')
+        raise SeasonNotFoundError('Schedule data is only available from 1999 to 2024')
 
     url = SCHEDULE_URL.format(year=year)
     res = requests.get(url)
