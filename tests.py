@@ -9,7 +9,7 @@ class TestAllFunctions(unittest.TestCase):
 
         version = nflfastpy.__version__
 
-        df = nflfastpy.load_pbp_data(2020)
+        df = nflfastpy.load_pbp_data(2024)
         self.assertEqual(type(df), pd.DataFrame)
         self.assertFalse(df.empty)
 
@@ -17,19 +17,19 @@ class TestAllFunctions(unittest.TestCase):
         self.assertEqual(type(df), pd.DataFrame)
         self.assertFalse(df.empty)
 
-        df = nflfastpy.load_schedule_data(2020)
+        df = nflfastpy.load_schedule_data(2024)
         self.assertEqual(type(df), pd.DataFrame)
         self.assertFalse(df.empty)
 
-        df = nflfastpy.load_roster_data(2020)
+        df = nflfastpy.load_roster_data(2024)
         self.assertEqual(type(df), pd.DataFrame)
         self.assertFalse(df.empty)
 
-        df = nflfastpy.load_depth_chart_data(2020)
+        df = nflfastpy.load_depth_chart_data(2024)
         self.assertEqual(type(df), pd.DataFrame)
         self.assertFalse(df.empty)
 
-        df = nflfastpy.load_injury_data(2020)
+        df = nflfastpy.load_injury_data(2024)
         self.assertEqual(type(df), pd.DataFrame)
         self.assertFalse(df.empty)
 
