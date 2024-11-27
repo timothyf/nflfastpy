@@ -21,7 +21,7 @@ Play by play data is available going back to 1999.
 ```Python
 import nflfastpy
 
-df = nflfastpy.load_pbp_data(year=2020)
+df = nflfastpy.load_pbp_data(year=2024)
 ```
 <br>
 
@@ -39,10 +39,10 @@ To join roster data with play by play data, player id's in the play by play data
 
 ### Loading Schedule Data
 
-Schedule data is available from 1999 to 2020.
+Schedule data is available from 1999 to 2024.
 
 ```Python
-schedule = nflfastpy.load_schedule_data(year=2020)
+schedule = nflfastpy.load_schedule_data(year=2024)
 ```
 
 
